@@ -72,7 +72,7 @@ Authorization: Token your_token_here
 ### Register
 To create a new user, send a `POST` request with the required fields:
 
-**Endpoint**: `/register/`  
+**Endpoint**: `/accounts/register/`  
 **Method**: `POST`  
 **Request Body**:
 ```json
@@ -94,7 +94,7 @@ To create a new user, send a `POST` request with the required fields:
 ### Logout
 To log out, send a `POST` request with the token in the header:
 
-**Endpoint**: `/logout/`  
+**Endpoint**: `/accounts/logout/`  
 **Method**: `POST`  
 **Headers**:
 ```
@@ -105,7 +105,7 @@ Authorization: Token your_token_here
 ### Password Reset
 To request a password reset, send a `POST` request with your email:
 
-**Endpoint**: `/password-reset/`  
+**Endpoint**: `/accounts/password-reset/`  
 **Method**: `POST`  
 **Request Body**:
 ```json
@@ -123,7 +123,7 @@ To request a password reset, send a `POST` request with your email:
 ### Password Reset Confirmation
 To confirm the password reset, send a `POST` request with the necessary parameters:
 
-**Endpoint**: `/password-reset-confirm/`  
+**Endpoint**: `/accounts/password-reset-confirm/`  
 **Method**: `POST`  
 **Request Body**:
 ```json
